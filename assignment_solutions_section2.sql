@@ -59,3 +59,5 @@ FROM	products p1 INNER JOIN products p2
 WHERE	ABS(p1.unit_price - p2.unit_price) < 0.25
 		AND p1.product_name < p2.product_name
 ORDER BY price_diff DESC;
+-- calculate new line structure
+
